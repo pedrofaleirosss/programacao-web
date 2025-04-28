@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c2d7568263.js" crossorigin="anonymous"></script>
+    <script src="js/funcoes.js"></script>
+</head>
+<body>  
+
+    <img src="img/mario.webp" id="img">
+        
+    <h1 id="titulo">Tela de Cadastro</h1>
+    <h3 id="subtitulo">Pedro Alves Faleiros</h3>
+    
+    <div id="form">
+        <form action="">
+
+            <label for="username">Nome:</label>
+            <div class="input">
+                <i class="fa-solid fa-user"></i>
+                <input id="username"  placeholder="Username" type="text" required>
+            </div>
+
+            <label for="idade">Idade:</label>
+            <div class="input">
+                <i class="fa-solid fa-calendar-days"></i>
+                <input id="idade"  placeholder="Idade" type="text" required>
+            </div>
+
+            <label for="idade">Gênero:</label>
+            <div class="input">
+                <i class="fa-solid fa-venus-mars"></i>
+                <select id="option">
+                    <option selected disabled value="" id="select">Selecione</option>
+                    <option value="homens">Masculino</option>
+                    <option value="mulheres">Feminino</option>
+                </select>
+            </div>
+
+            <label for="email">Email:</label>
+            <div class="input">
+                <i class="fa-solid fa-envelope"></i>
+                <input id="email"  placeholder="Email" type="text" required>
+            </div>
+
+            <label for="senha">Senha:</label>
+            <div class="input">
+                <i class="fa-solid fa-lock"></i>
+                <input id="senha"  placeholder="Password" type="password" required>
+            </div>
+
+            <div id="btn">
+                <button  onclick="salvar()" type="button">Cadastrar</button>
+            </div>
+        </form>
+    </div>
+    
+    <div id="btn-re">
+        <button type="submit" onclick="resumo()">Resumo</button>
+    </div>
+    <div id="quadro">
+        <h3 class="infos" id="cadastros">Cadastros: 0</h3>
+        <h3 class="infos" id="homem">Homens: 0</h3>
+        <h3 class="infos" id="mulher">Mulheres: 0</h3>
+        <h3 class="infos" id="crianças">Crianças: 0</h3>
+        <h3 class="infos" id="adultos">Adultos: 0</h3>
+        <h3 class="infos" id="idosos">Idosos: 0</h3>
+    </div>
+
+</body>
+</html>

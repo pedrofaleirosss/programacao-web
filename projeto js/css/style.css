@@ -1,0 +1,26 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(37, 34, 34);
+}
+
+.posicao{
+    width: 20%;
+    margin-top: 150px;
+}
+
+#botao{
+    background-color: yellow;
+    height: 50px;
+    width: 100px;
+    
+}
+
+#botao:hover{
+    background-color: rgb(187, 236, 6);
+}

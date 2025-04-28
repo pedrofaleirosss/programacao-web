@@ -1,0 +1,94 @@
+#menu ul{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(37, 37, 39);
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    padding: 20px;
+}
+
+#menu ul li a:hover{
+    background-color: rgb(24, 139, 233);
+}
+
+#texto{
+    font-size: 65px;
+    color: red;
+    font-family: cursive;
+}
+
+#img{
+    width: 1000px;
+    border: 2px solid black;
+}
+
+#AmericaNorte{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 287px;
+    opacity: 0;
+}
+
+#AmericaCentral{
+    position: absolute;
+    margin-top: 305px;
+    margin-left: 280px;
+    opacity: 0;
+
+}
+
+#AmericaSul{
+    position: absolute;
+    margin-top: 375px;
+    margin-left: 380px;
+    opacity: 0;
+}
+
+#Europa{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 570px;
+    opacity: 0;
+}
+
+#Africa{
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 590px;
+    opacity: 0;
+}
+
+#Antartica{
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 540px;
+    opacity: 0;
+}
+
+#Asia{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 800px;
+    opacity: 0;
+}
+
+#Oceania{
+    position: absolute;
+    margin-top: 385px;
+    margin-left: 920px;
+    opacity: 0;
+}
+
+.modal-title{
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+}
